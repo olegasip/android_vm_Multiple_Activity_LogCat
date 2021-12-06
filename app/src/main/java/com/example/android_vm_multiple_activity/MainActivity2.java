@@ -25,37 +25,37 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_main2);
         btn = findViewById(R.id.btnActTwo);
         btn.setOnClickListener(this);
-        Log.d(TAG, "onCreate(): MainActivity");
+        Log.d(TAG, "onCreate(): MainActivity2");
     }
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.d(TAG, "onRestart(): MainActivity");
+        Log.d(TAG, "onRestart(): MainActivity2");
     }
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d(TAG, "onStart(): MainActivity");
+        Log.d(TAG, "onStart(): MainActivity2");
     }
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d(TAG, "onResume(): MainActivity");
+        Log.d(TAG, "onResume(): MainActivity2");
     }
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d(TAG, "onPause(): MainActivity");
+        Log.d(TAG, "onPause(): MainActivity2");
     }
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d(TAG, "onStop(): MainActivity");
+        Log.d(TAG, "onStop(): MainActivity2");
     }
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d(TAG, "onDestroy(): MainActivity");
+        Log.d(TAG, "onDestroy(): MainActivity2");
     }
 
     @Override
